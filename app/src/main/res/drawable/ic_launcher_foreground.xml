@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Soccer ball circle -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M54,27C39.09,27 27,39.09 27,54C27,68.91 39.09,81 54,81C68.91,81 81,68.91 81,54C81,39.09 68.91,27 54,27ZM54,78C40.75,78 30,67.25 30,54C30,40.75 40.75,30 54,30C67.25,30 78,40.75 78,54C78,67.25 67.25,78 54,78Z"/>
+        <!-- Soccer ball pattern -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M54,32L44,42L54,52L64,42L54,32ZM42,44L32,54L42,64L52,54L42,44ZM66,44L56,54L66,64L76,54L66,44ZM54,56L44,66L54,76L64,66L54,56Z"/>
+        <!-- Management icon -->
+        </group>
+
+
+</vector>

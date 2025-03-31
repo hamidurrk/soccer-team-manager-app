@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item android:title="Sort By">
+        <menu>
+            <item
+                android:id="@+id/sort_by_name"
+                android:title="Name"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_team"
+                android:title="Team"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_age"
+                android:title="Age"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_number"
+                android:title="Jersey Number"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                android:title="All Players"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_forwards"
+                android:title="Forwards"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_midfielders"
+                android:title="Midfielders"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_defenders"
+                android:title="Defenders"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_goalkeepers"
+                android:title="Goalkeepers"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_young_talents"
+                android:title="Young Talents (≤23)"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_experienced"
+                android:title="Experienced (≥30)"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu> 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item android:title="Sort By">
+        <menu>
+            <item
+                android:id="@+id/sort_by_date"
+                android:title="Date"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_competition"
+                android:title="Competition"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_home_team"
+                android:title="Home Team"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_away_team"
+                android:title="Away Team"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                android:title="All Matches"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_champions_league"
+                android:title="Champions League"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_domestic"
+                android:title="Domestic Leagues"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_high_scoring"
+                android:title="High Scoring (3+ Goals)"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_draws"
+                android:title="Draws"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu> 

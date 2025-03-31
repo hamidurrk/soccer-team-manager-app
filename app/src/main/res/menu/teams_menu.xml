@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item android:title="Sort By">
+        <menu>
+            <item
+                android:id="@+id/sort_by_name"
+                android:title="Name"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_league"
+                android:title="League"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_country"
+                android:title="Country"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/sort_by_founded_year"
+                android:title="Founded Year"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:title="Filter">
+        <menu>
+            <item
+                android:id="@+id/filter_all"
+                android:title="All Teams"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_european"
+                android:title="European Leagues"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_american"
+                android:title="American Leagues"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/filter_historic"
+                android:title="Historic Teams (Pre-1900)"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu> 
